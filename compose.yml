@@ -1,0 +1,11 @@
+services:
+  php:
+    image: php:8.2-fpm-bullseye
+    volumes:
+      - ./:/var/www/html
+  composer:
+    restart: 'no'
+    image: composer/composer
+    command: install
+    volumes:
+      - ./:/app
