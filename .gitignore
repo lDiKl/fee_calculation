@@ -3,3 +3,4 @@
 /bin/php-cs-fixer
 /bin/php-parse
 /bin/phpunit
+/.env
