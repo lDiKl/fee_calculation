@@ -1,0 +1,5 @@
+/vendor/
+/phpunit.xml
+/bin/php-cs-fixer
+/bin/php-parse
+/bin/phpunit
